@@ -4,5 +4,8 @@ module workshop_javafx_jdbc {
 	requires java.desktop;
 	exports gui;
 	opens gui to javafx.fxml;
+	opens model.entities;
+	opens model.services;
+	
 	opens application to javafx.graphics, javafx.fxml;
 }
