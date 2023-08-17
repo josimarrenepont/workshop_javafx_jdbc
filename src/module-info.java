@@ -7,6 +7,7 @@ module workshop_javafx_jdbc {
 	opens gui to javafx.fxml;
 	opens model.entities;
 	opens model.services;
+
 	
 	opens application to javafx.graphics, javafx.fxml;
 }
